@@ -29,6 +29,7 @@ const App = {
       <br>
       <br>
       <br>
+      <br>
       <div style="display: grid; gap: 32px">
         <div v-for="m in chatMessages" :key="m.id">
           <div style="opacity: 0.5; font-size: 0.9em">Lisatud {{ dayjs(m.datetime).format("DD.MM.YYYY h:mm") }}</div>
