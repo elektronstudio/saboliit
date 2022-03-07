@@ -25,7 +25,7 @@ const App = {
         placeholder="Sinu kommentaar"
       />
       <br />
-      <button style="background: #FC7BFB; border: none; font-size: 1.2em; font-weight: bold; padding: 16px; font-family: Open Sans, sans-serif; padding: 16px 32px" @click="onNewChatMessage">Saada kommentaar</button>
+      <button style="background: #FC7BFB; border: none; font-size: 1.2em; font-weight: bold; padding: 16px; font-family: Open Sans, sans-serif; padding: 16px 32px" @click="onNewChatMessage">Saada kommentaar!</button>
       <br>
       <br>
       <br>
