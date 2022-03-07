@@ -42,5 +42,7 @@ const App = {
       `,
 };
 
+let root = document.createElement("div");
+document.body.appendChild(root);
 const app = createApp(App);
-app.mount("#app");
+app.mount(root);
