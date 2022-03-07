@@ -17,7 +17,7 @@ const App = {
     };
   },
   template: `
-  <div style="font-family: Open Sans, sans-serif; background: #00dc6e; display: flex; justify-content: center">
+  <div style="font-family: Open Sans, sans-serif; background: #00dc6e; display: flex; justify-content: center; z-index: 100000; position: fixed; right: 0; bottom: 0; width: 100px; height: 200px;">
     <div style="padding: 32px; width: 100%; max-width: 600px">
       <textarea
         v-model="newChatMessage"
